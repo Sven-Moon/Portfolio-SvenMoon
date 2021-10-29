@@ -1,0 +1,274 @@
+<!-- --------- HOME -->
+<section class="home-hero" id="top">
+  <div class="home-hero__content">
+    <h1 class="heading-primary">Hi, My name is Sven Moon</h1>
+    <div class="home-hero__info">
+      <p class="text-primary">
+        <em
+          >"Experience is overrated. When hiring, hire for aptitude, train for
+          skills. Most really amazing or great things are done by people doing
+          them for the first time."</em
+        >
+        <br />
+        -- <a href="kk.org">Kevin Kelly</a>
+      </p>
+    </div>
+    <div class="home-hero__cta">
+      <button
+        (click)="scrollToAnchor('projects')"
+        type="button"
+        class="btn btn--bg"
+      >
+        Projects
+      </button>
+    </div>
+  </div>
+  <div class="home-hero__socials">
+    <div class="home-hero__social">
+      <a
+        href="https://www.linkedin.com/in/sven-moon/"
+        class="home-hero__social-icon-link"
+      >
+        <img
+          src="./assets/png/linkedin-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+    <div class="home-hero__social">
+      <a href="https://github.com/Svenpire" class="home-hero__social-icon-link">
+        <img
+          src="./assets/png/github-ico.png"
+          alt="icon"
+          class="home-hero__social-icon"
+        />
+      </a>
+    </div>
+  </div>
+  <div class="home-hero__mouse-scroll-cont">
+    <div class="mouse"></div>
+  </div>
+</section>
+<!-- home -->
+<!-- --------- ABOUT -->
+<section id="about" class="about sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-med">
+      <span class="heading-sec__main">About Me</span>
+      <span class="heading-sec__sub">
+        <em
+          >"There is nothing like shared interest to draw people together."</em
+        >
+        <br />
+        -- E.A. Bucchianeri, Vocation of a Gadfly
+      </span>
+    </h2>
+    <div class="about__content">
+      <div class="about__content-main">
+        <h3 class="about__content-title">Get to know me!</h3>
+        <div class="about__content-details">
+          <p class="about__content-details-para">
+            Hey! It's
+            <strong>Sven Moon</strong>
+            and I'm a <strong> Frontend Web Developer </strong> located in
+            Denver, CO. I've done a few fun projects (not tutorials), to create
+            <strong>digital products</strong> that could actually be used for
+            business or consumer use.
+          </p>
+          <p>
+            I'm in love with the software engineering community because there's
+            so much energy to not just do things, but do them the right way and
+            pave the way for the next generation of developer.
+          </p>
+          <p>
+            I like nerdy things, such as board games, video games, and painting
+            miniatures. But I also like
+            <em>doing</em> things, such as getting a drink at a pub, playing
+            sports, cooking, and being handy around the house.
+          </p>
+          <p class="about__content-details-para">
+            I'm still a bit new to web development, but I think it's tons of fun
+            and I love getting better at it every day. Feel free to
+            <strong>contact</strong> me here.
+          </p>
+        </div>
+        <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+          >Contact</a
+        >
+      </div>
+      <div class="about__content-skills">
+        <h3 class="about__content-title">My Skills</h3>
+        <div class="skills mb-3">
+          <div class="skills__skill">HTML</div>
+          <div class="skills__skill">CSS</div>
+          <div class="skills__skill">SASS</div>
+          <div class="skills__skill">Angular</div>
+          <div class="skills__skill">Typecript</div>
+          <div class="skills__skill">RxJs</div>
+          <div class="skills__skill">NgRx</div>
+          <div class="skills__skill">JavaScript</div>
+          <div class="skills__skill">GIT</div>
+        </div>
+        <h3 class="about__content-title">My Developing Skills</h3>
+        <div class="skills">
+          <div class="skills__skill">.NET</div>
+          <div class="skills__skill">SQL</div>
+          <div class="skills__skill">Entity Framework</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about -->
+<!-- --------- PROJECTS -->
+<section id="projects" class="projects sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-bg">
+      <span class="heading-sec__main">Projects</span>
+      <span class="heading-sec__sub"> Work can be fun. </span>
+    </h2>
+
+    <div class="projects__content">
+      <!-- --------- SALAD, TOO -->
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/png/project-1.png"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Salad, Too</h3>
+          <p class="projects__row-content-desc">
+            So named as this is the second iteration of the same salad/sandwich
+            shop concept. Customize a salad or sandwich and assign it to
+            yourself or a friend.
+          </p>
+          <div
+            routerLink="/project-1"
+            class="btn btn--med btn--theme dynamicBgClr"
+          >
+            Let's go!
+          </div>
+        </div>
+      </div>
+
+      <!-- --------- SPELLWELL -->
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/spellwell.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Spell Well</h3>
+          <p class="projects__row-content-desc">
+            This project is fun in part because it's based on Dungeons &
+            Dragons. And who, besides almost everybody, doesn't like playing
+            D&D? This project seeks to answer the question we often ask
+            ourselves, "What spell should I cast?"
+          </p>
+          <a
+            href="./project-2"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Okay. Show me.</a
+          >
+        </div>
+      </div>
+
+      <!-- --------- SELLPHONE -->
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/png/project-3.png"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">SellPhone</h3>
+          <p class="projects__row-content-desc">
+            This was my very first project! It's simple, perhaps even
+            unimaginative, but has some fine features like tables, repeating
+            forms, navigation, and what could be a for real search.
+          </p>
+          <a
+            href="/project-3"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Let's see it!</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- projects -->
+<!-- --------- CONTACT -->
+<section id="contact" class="contact sec-pad dynamicBg">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-med">
+      <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+      <span class="heading-sec__sub heading-sec__sub--lt">
+        Maybe you have some questions or some comments. Both are welcome.
+      </span>
+    </h2>
+    <div class="contact__form-container">
+      <form
+        action="https://mailthis.to/svenpire@gmail.com"
+        method="POST"
+        class="contact__form"
+      >
+        <div class="contact__form-field">
+          <label class="contact__form-label" for="name">Name</label>
+          <input
+            required
+            placeholder="Enter Your Name"
+            type="text"
+            class="contact__form-input"
+            name="name"
+            id="name"
+          />
+        </div>
+        <div class="contact__form-field">
+          <label class="contact__form-label" for="email">Email</label>
+          <input
+            required
+            placeholder="Enter Your Email"
+            type="text"
+            class="contact__form-input"
+            name="email"
+            id="email"
+          />
+        </div>
+        <div class="contact__form-field">
+          <label class="contact__form-label" for="message">Message</label>
+          <textarea
+            required
+            cols="30"
+            rows="10"
+            class="contact__form-input"
+            placeholder="Enter Your Message"
+            name="message"
+            id="message"
+          ></textarea>
+        </div>
+        <input type="hidden" name="_honeypot" value="" />
+        <input type="hidden" name="_confirmation" value="Message sent!" />
+
+        <button type="submit" class="btn btn--theme contact__btn">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- contact -->
