@@ -156,6 +156,11 @@
   }
 }
 
+.text-secondary {
+  color: rgb(58, 58, 58);
+  @extend .text-primary;
+}
+
 
 .d-none {
   display: none;
