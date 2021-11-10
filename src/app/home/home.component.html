@@ -13,13 +13,8 @@
       </p>
     </div>
     <div class="home-hero__cta">
-      <button
-        (click)="scrollToAnchor('projects')"
-        type="button"
-        class="btn btn--bg"
-      >
-        Projects
-      </button>
+      <!-- <a href="/home#projects" class="btn btn--bg"> Projects </a> -->
+      <a href="/home#projects" class="btn btn--bg"> Projects </a>
     </div>
   </div>
   <div class="home-hero__socials">
@@ -146,12 +141,13 @@
             shop concept. Customize a salad or sandwich and assign it to
             yourself or a friend.
           </p>
-          <div
+          <a
             routerLink="/project-1"
-            class="btn btn--med btn--theme dynamicBgClr"
+            fragment="p1-hero"
+            class="btn btn--med btn--theme dynamicBgClr pointer"
           >
             Let's go!
-          </div>
+          </a>
         </div>
       </div>
 
@@ -174,11 +170,12 @@
             contemplates, "What spell should I cast?"
           </p>
           <a
-            href="./project-2"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Okay. Show me.</a
+            routerLink="/project-2"
+            fragment="p2-hero"
+            class="btn btn--med btn--theme dynamicBgClr pointer"
           >
+            Okay. Show me.
+          </a>
         </div>
       </div>
 
@@ -200,11 +197,12 @@
             forms, navigation, and what could be a for real search.
           </p>
           <a
-            href="/project-3"
-            class="btn btn--med btn--theme dynamicBgClr"
-            target="_blank"
-            >Let's see it!</a
+            routerLink="/project-3"
+            fragment="p3-hero"
+            class="btn btn--med btn--theme dynamicBgClr pointer"
           >
+            Let's see it!
+          </a>
         </div>
       </div>
     </div>
