@@ -1,3 +1,24 @@
 $themeClrPrimary: #0062b9;
 
 $commonBorderRadius: 5px;
+
+
+// Header
+$link-vpad-phone: 3rem;
+$link-vpad-tab-port: 3rem;
+$link-vpad-tab-land: 3rem;
+$link-vpad-big-desktop: 3rem;
+
+$link-phone: 3rem;
+$link-tab-port: 3rem;
+$link-tab-land: 3rem;
+$link-big-desktop: 3rem;
+
+$header-phone: calc(#{$link-phone} + 2 * #{$link-vpad-phone});
+$header-tab-port: calc(#{$link-tab-port} + 2 * #{$link-vpad-tab-port});
+$header-tab-land: calc(#{$link-tab-land} + 2 * #{$link-vpad-tab-land});
+$header-big-desktop: calc(#{$link-big-desktop} + 2 * #{
+    $link-vpad-big-desktop
+  }
+
+);

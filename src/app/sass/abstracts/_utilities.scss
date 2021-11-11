@@ -136,6 +136,14 @@
   }
 }
 
+.scroller {
+  scroll-snap-type: y proximity;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
+
 .sec-pad {
   padding: 12rem 0;
 
